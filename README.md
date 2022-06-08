@@ -6,7 +6,7 @@ Harold's company has been investing in algorithmic trading strategies. Some of t
 
 You just learned these quantitative analysis techniques with Python and Pandas, so Harold has come to you with a challenge—to help him determine which portfolio is performing the best across multiple areas: volatility, returns, risk, and Sharpe ratios.
 
-You need to create a tool  that analyzes and visualizes the major metrics of the portfolios across all of these areas, and determine which portfolio outperformed the others. You will be given the historical daily returns of several portfolios: some from the firm's algorithmic portfolios, some that represent the portfolios of famous "whale" investors like Warren Buffett, and some from the big hedge and mutual funds. You will then use this analysis to create a custom portfolio of stocks and compare its performance to that of the other portfolios, as well as the larger market.
+You need to create a tool  that analyzes and visualizes the major metrics of the portfolios across all of these areas, and determine which portfolio outperformed the others.
 
 For this project, I have three main tasks:
 
@@ -48,25 +48,43 @@ Analyze the data to see if any of the portfolios outperform the stock market (i.
 
 1. Calculate and plot daily returns of all portfolios.
 
+![image](https://user-images.githubusercontent.com/98990090/172506920-5c362d2c-b46f-4f99-b2b3-4fec9922466d.png)
+
 2. Calculate and plot cumulative returns for all portfolios. Does any portfolio outperform the S&P 500?
+
+![image](https://user-images.githubusercontent.com/98990090/172506894-f8f7be81-4606-4102-b147-89939648c5a4.png)
+
+> Berkshire Hathaway, Soros Fund Management, and Algo 2 all outperformed the SP Closing Price at one point in the data set
 
 #### Risk Analysis
 
 1. Create a box plot for each of the returns. 
 
-2. Calculate the standard deviation for each portfolio. 
+2. Calculate the standard deviation for each portfolio.
+
+![image](https://user-images.githubusercontent.com/98990090/172507023-084a367d-8ad4-46f1-9e94-e73e81affe38.png)
 
 3. Determine which portfolios are riskier than the S&P 500.
+> Berkshire Hathaway, INC
 
 4. Calculate the Annualized Standard Deviation.
+
+![image](https://user-images.githubusercontent.com/98990090/172507047-9bcebf2d-b5ff-4631-bf79-bc3f8e7054ef.png)
 
 #### Rolling Statistics
 
 1. Calculate and plot the rolling standard deviation for all portfolios using a 21-day window.
 
+![image](https://user-images.githubusercontent.com/98990090/172507074-f1a03d3d-8ee1-49bb-9402-57c6b57b3ae4.png)
+
 2. Calculate and plot the correlation between each stock to determine which portfolios may mimick the S&P 500.
 
+![image](https://user-images.githubusercontent.com/98990090/172507106-b55537ac-b5bb-4428-86f9-324ec5d867c5.png)
+
 3. Choose one portfolio, then calculate and plot the 60-day rolling beta between it and the S&P 500.
+
+> Berkshire Hathaway
+![image](https://user-images.githubusercontent.com/98990090/172507140-f545141d-c0b0-4595-85b4-9655f1d85153.png)
 
 ### Sharpe Ratios
 
@@ -74,7 +92,10 @@ Investment managers and their institutional investors look at the return-to-risk
 
 1. Using the daily returns, calculate and visualize the Sharpe ratios using a bar plot.
 
+![image](https://user-images.githubusercontent.com/98990090/172507181-2f5fc8b6-fe90-4cc9-877b-d52ad9f000b4.png)
+
 2. Determine whether the algorithmic strategies outperform both the market (S&P 500) and the whales portfolios.
+> Algo 1 outperformed SP 500 and Whale Return, Algo 2 did not
 
 ### Create a Custom Portfolio
 
@@ -97,3 +118,4 @@ Harold is ecstatic that you were able to help him prove that the algorithmic tra
     * Calculate the Sharpe ratios and generate a bar plot.
 
 4. How does your portfolio do?
+> My portfolio outperformed all portfolios except Algo 1.

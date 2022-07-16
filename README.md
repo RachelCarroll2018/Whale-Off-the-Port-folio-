@@ -83,7 +83,7 @@ Analyze the data to see if any of the portfolios outperform the stock market (i.
 
 3. Choose one portfolio, then calculate and plot the 60-day rolling beta between it and the S&P 500.
 
-> Berkshire Hathaway
+> Berkshire Hathaway <br>
 ![image](https://user-images.githubusercontent.com/98990090/172507140-f545141d-c0b0-4595-85b4-9655f1d85153.png)
 
 ### Sharpe Ratios
